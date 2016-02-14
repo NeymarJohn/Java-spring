@@ -3,5 +3,7 @@ sudo: required
 language: java
 jdk: oraclejdk8
 
+before_install:
+  - sudo pip install codecov
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - codecov
