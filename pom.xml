@@ -42,7 +42,6 @@
 		<module>account-service</module>
 		<module>statistics-service</module>
 		<module>notification-service</module>
-		<module>turbine-stream-service</module>
 	</modules>
 
 </project>
